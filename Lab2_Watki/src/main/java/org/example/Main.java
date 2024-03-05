@@ -10,19 +10,22 @@ public class Main {
         String instrucion = "";
 
         ExecutorService executorService;
-        Queue<Integer> tasks = new LinkedList<>();
-        WorkerManageTask workerManageTask = new WorkerManageTask(tasks);
+        ManagerTask managerTask = new ManagerTask(new LinkedList<>());
+        ManagerResult managerResult = new ManagerResult(new LinkedList<>());
+        Thread workerPrintResult = new Thread(new WorkerPrintResult(managerResult));
+        workerPrintResult.start();
+
         int numberOfThreads = args.length>0 ? Integer.parseInt(args[0]) : 5;
         executorService = Executors.newFixedThreadPool(numberOfThreads);
 
 //        for(int i=0; i<2; i++){
 //            int random = (int) (Math.random() * 100000) +1;
-//            tasks.add(random);
+//            managerTask.addNumber(random);
 //        }
 
         // Create new threads
         for(int i=0;i<numberOfThreads;i++){
-            Thread thread = new Thread(new WorkerCountValue(tasks,workerManageTask));
+            Thread thread = new Thread(new WorkerCountValue(managerTask, managerResult));
             executorService.submit(thread);
         }
 
@@ -30,11 +33,12 @@ public class Main {
             instrucion = scanner.nextLine();
             try{
                 int number = Integer.parseInt(instrucion);
-                workerManageTask.addNumber(number);
+                managerTask.addNumber(number);
             }catch(NumberFormatException e){
                 if(!Objects.equals(instrucion, "exit")) System.out.println("Invalid format");
             }
         }
         executorService.shutdownNow();
+        workerPrintResult.interrupt();
     }
 }

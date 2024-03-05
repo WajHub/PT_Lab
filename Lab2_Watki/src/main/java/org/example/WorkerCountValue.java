@@ -1,15 +1,12 @@
 package org.example;
 
-import java.util.Queue;
-
 public class WorkerCountValue implements Runnable{
+    ManagerTask workerManageTask;
+    ManagerResult managerResult;
 
-    Queue<Integer> tasks;
-    WorkerManageTask workerManageTask;
-
-    public WorkerCountValue(Queue<Integer> tasks, WorkerManageTask workerManageTask) {
-        this.tasks = tasks;
+    public WorkerCountValue( ManagerTask workerManageTask,ManagerResult managerResult) {
         this.workerManageTask = workerManageTask;
+        this.managerResult = managerResult;
     }
 
     @Override
@@ -21,10 +18,11 @@ public class WorkerCountValue implements Runnable{
                 if(number==null) {
                     return;
                 }
+                System.out.println("[Counting] Current Thread: " + Thread.currentThread().getName() + " [Nubmer " +
+                        number + "]");
                 int random = (int) (Math.random() * 10000) +1;
                 Thread.sleep(random);
-                System.out.println("[Counting] Current Thread: " + Thread.currentThread().getName() + " [Nubmer " +
-                            number + "]");
+                managerResult.addResult(new Result(Thread.currentThread().getName(),(int)number,isPrime((int)number)));
                 }
             catch (InterruptedException e) {
                 throw new RuntimeException(e);
