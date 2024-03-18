@@ -25,5 +25,20 @@ public class Tower {
     @OneToMany
     private List<Mage> mages;
 
+    @Override
+    public String toString() {
+        return "Tower{" +
+                "name='" + name + '\'' +
+                ", height=" + height +
+                ", mages=" + mages +
+                '}';
+    }
 
+    public void addMage(Mage mage){
+        mages.add(mage);
+    }
+
+    public void deleteMage(Mage mage){
+        mages.remove(mage);
+    }
 }

@@ -20,4 +20,13 @@ public class Mage {
 
     @ManyToOne
     private Tower tower;
+
+    @Override
+    public String toString() {
+        return "Mage{" +
+                "Name='" + Name + '\'' +
+                ", level=" + level +
+                ", tower=" + (tower == null ? "null" : tower.getName()) +
+                '}';
+    }
 }
