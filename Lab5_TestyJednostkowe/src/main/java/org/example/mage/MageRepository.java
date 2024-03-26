@@ -33,9 +33,12 @@ public class MageRepository {
         if(optionalMage.isPresent()){
             throw new IllegalArgumentException("Mage already exists!");
         }
-        entityManager.getTransaction().begin();
-        entityManager.persist(mage);
-        entityManager.getTransaction().commit();
+        else{
+            entityManager.getTransaction().begin();
+            entityManager.persist(mage);
+            entityManager.getTransaction().commit();
+        }
+
     }
 
 
