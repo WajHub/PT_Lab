@@ -2,10 +2,10 @@ package org.example.mage;
 
 import java.util.Optional;
 
-public class MageController {
-    MageRepository mageRepository;
+public class MageController implements MageControllerInterface{
+    MageRepositoryInterface mageRepository;
 
-    public MageController(MageRepository mageRepository){
+    public MageController(MageRepositoryInterface mageRepository){
         this.mageRepository = mageRepository;
     }
 
@@ -21,7 +21,7 @@ public class MageController {
         try{
             mageRepository.delete(name);
             return "done";
-        }catch(IllegalArgumentException e){
+        } catch(IllegalArgumentException e){
             return "not found";
         }
     }

@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManager;
 
 import java.util.Optional;
 
-public class MageRepository {
+public class MageRepository implements MageRepositoryInterface{
     private EntityManager entityManager;
 
     public MageRepository(EntityManager entityManager){
