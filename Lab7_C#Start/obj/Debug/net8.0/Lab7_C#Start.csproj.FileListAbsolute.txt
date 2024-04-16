@@ -1,0 +1,15 @@
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/bin/Debug/net8.0/Lab7_C#Start
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/bin/Debug/net8.0/Lab7_C#Start.deps.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/bin/Debug/net8.0/Lab7_C#Start.runtimeconfig.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/bin/Debug/net8.0/Lab7_C#Start.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/bin/Debug/net8.0/Lab7_C#Start.pdb
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.AssemblyInfoInputs.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.AssemblyInfo.cs
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.csproj.CoreCompileInputs.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.sourcelink.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/refint/Lab7_C#Start.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.pdb
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/Lab7_C#Start.genruntimeconfig.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab7_C#Start/obj/Debug/net8.0/ref/Lab7_C#Start.dll
