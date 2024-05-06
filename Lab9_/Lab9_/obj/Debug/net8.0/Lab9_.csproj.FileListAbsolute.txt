@@ -1,0 +1,15 @@
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/bin/Debug/net8.0/Lab9_
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/bin/Debug/net8.0/Lab9_.deps.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/bin/Debug/net8.0/Lab9_.runtimeconfig.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/bin/Debug/net8.0/Lab9_.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/bin/Debug/net8.0/Lab9_.pdb
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.AssemblyInfoInputs.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.AssemblyInfo.cs
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.csproj.CoreCompileInputs.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.sourcelink.json
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/refint/Lab9_.dll
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.pdb
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/Lab9_.genruntimeconfig.cache
+/Users/hubertwajda/SemestrIV/PT/PT_Lab/Lab9_/Lab9_/obj/Debug/net8.0/ref/Lab9_.dll
